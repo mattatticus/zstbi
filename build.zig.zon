@@ -1,7 +1,11 @@
 .{
-    .name = "zstbi",
+    .name = .zstbi,
+
+    .fingerprint = 0x3c9710545baec4d0, // WARN: Changing this has security and trust implications.
+
     .version = "0.10.0",
-    .minimum_zig_version = "0.13.0-dev.351+64ef45eb0",
+    // .minimum_zig_version = "0.13.0-dev.351+64ef45eb0",
+    .minimum_zig_version = "0.14.0",
     .paths = .{
         "build.zig",
         "build.zig.zon",
